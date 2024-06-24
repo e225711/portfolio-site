@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/minipanda.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html">
+                KOHAGURA'S <br> PORTFOLIO SITE
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">TOP</a></li>
+                <li><a href="../about.html">ABOUT</a></li>
+                <li><a href="../history.html">HISTORY</a></li>
+                <li><a href="../products.html">PRODUCTS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <div class="project-details">
+                <h1>Markdown to HTML</h1>
+                <img src="../img/product/mdtohtml/md_to_html_top_page.png" alt="md-to-htmlアプリ画面" class="product-picture">
+                <h3>ソースコードへのリンク</h3>
+                <p><a href="https://github.com/e225711/project-markdown-to-html">https://github.com/e225711/project-markdown-to-html</a></p>
+
+                <h3>アプリケーションへのリンク</h3>
+                <p><a href="https://mdtohtml.kohagura8888.com">https://mdtohtml.kohagura8888.com</a></p>
+
+                <h3>プロジェクトの概要</h3>
+                <p>Markdown から HTML への変換を行うアプリケーションである。Recursionのバックエンドプロジェクト・Dynamic Web Serversの課題の制作物である。</p>
+
+                <h3>使用した技術スタック</h3>
+                <p>HTML、CSS、PHP</p>
+
+                <h3>機能の詳細</h3>
+                <p>エディタ部分にMarkdownのテキストを入力する</p>
+                <p>Previewボタンを押すとHTMLが反映された出力がみれる</p>
+                <p>HTMLボタンを押すとMarkdownのテキストがHTMLのコードに変換されたテキストが出力される</p>
+                <p>Downloadボタンを押すとMarkdownのテキストがHTMLのコードに変換されたものをダウンロードできる</p>
+
+                <h3>学んだことや挑戦</h3>
+                <p>ブラウザからのリクエストをサーバ側で処理するということを初めて行った。</p>
+                <p>AWSのEC2を使用した。その際のnginxの設定に苦戦した。</p>
+                <p>また、ドメインも取得し、サブドメインを設定して公開した。</p>
+                <p>バックエンドっぽいことを初めてしたのでとても楽しく開発できた。</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 kohagura8888</p>
+    </footer>
+</body>
+</html>
