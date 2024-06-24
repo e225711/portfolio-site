@@ -61,6 +61,9 @@ main {
 }
 .content .links {
   padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .content .links a {
   color: #fff;
@@ -159,6 +162,7 @@ main {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 .product-thumbnail {
   flex: 1;
@@ -201,4 +205,22 @@ footer {
   padding-top: 50px;
   padding-right: 30px;
   text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .content .links {
+    flex-direction: column;
+  }
+  .content .links a {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .product-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-thumbnail {
+    margin: 10px 0;
+    width: 80%;
+  }
 }
