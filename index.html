@@ -17,10 +17,10 @@
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">TOP</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="history.html">HISTORY</a></li>
-                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="#top">TOP</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#history">HISTORY</a></li>
             </ul>
         </nav>
         <div class="hamburger-menu">
@@ -30,7 +30,7 @@
         </div>
     </header>
     <main>
-        <section class="content">
+        <section id="top" class="content">
             <img src="img/パンダアイコン.png" alt="小波蔵 舞武のプロフィール写真" class="profile-picture">
             <h1>小波蔵 舞武</h1>
             <p>琉球大学 CS専攻 学部３年</p>
@@ -38,18 +38,180 @@
             <p>趣味：筋トレ、アニメ、坂道</p>
             <p>取り組んでること：作りたいアプリの開発、勉強</p>
             <div class="links">
-                <a href="https://github.com/e225711" target="_blank">
-                    GitHub
-                </a>
-                <a href="https://atcoder.jp/users/maimu8" target="_blank">
-                    AtCoder
-                </a>
-                <a href="https://www.wantedly.com/id/maimu_kohagura" target="_blank">
-                    Wantedly
-                </a>
-                <a href="https://kohagura8888.hatenablog.com/" target="_blank">
-                    Hatena Blog
-                </a>
+                <a href="https://github.com/e225711" target="_blank">GitHub</a>
+                <a href="https://atcoder.jp/users/maimu8" target="_blank">AtCoder</a>
+                <a href="https://www.wantedly.com/id/maimu_kohagura" target="_blank">Wantedly</a>
+                <a href="https://kohagura8888.hatenablog.com/" target="_blank">Hatena Blog</a>
+            </div>
+        </section>
+
+        <section id="products" class="content">
+            <h1>PRODUCTS</h1>
+            <div class="product-row">
+                <div class="product-thumbnail">
+                    <a href="product/mdtohtml.html"></a>
+                    <img src="img/product/mdtohtml/md_to_html_top_page.png" alt="md-to-htmlアプリ画面" class="product-picture">
+                    <p>Markdown to HTML</p>
+                </div>
+                <div class="product-thumbnail">
+                    <a href="product/my単語帳.html"></a>
+                    <img src="img/product/my単語帳/my単語帳画面.png" alt="my単語帳アプリ画面" class="product-picture">
+                    <p>My単語帳</p>
+                </div>
+                <div class="product-thumbnail">
+                    <img src="img/product/翻訳、単語アプリ/coming_soon.png" alt="翻訳、単語アプリ画面" class="product-picture">
+                    <p>生成AI×翻訳×単語アプリ</p>
+                </div>
+            </div>
+            <div class="product-row">
+                <div class="product-thumbnail">
+                    <!-- ここにさらに製品を追加することができます -->
+                </div>
+                <div class="product-thumbnail">
+                    <!-- ここにさらに製品を追加することができます -->
+                </div>
+                <div class="product-thumbnail">
+                    <!-- ここにさらに製品を追加することができます -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content">
+            <div class="about-child">
+                <h2>ABOUT</h2>
+                <h3>私について</h3>
+                <img src="img/パンダアイコン.png" alt="小波蔵 舞武のプロフィール写真" class="profile-picture">
+                <p>ハッカーに憧れてプログラミングに興味を持ち、コンピュータサイエンスを大学で学ぶことを決意。コンピュータサイエンスを学ぶうちに様々な仕組みを知ること、作ることの楽しさに気づく。現在は、ソフトウェアエンジニアを目指して学習中。</p>
+
+                <h3>現在、取り組んでいること</h3>
+                <p>作りたいアプリがあるのですが、作成するための技術力が足りていないので、アプリ開発を学習中です。</p>
+                <p>アプリ開発の学習のためにRecursionというサービスを契約して学習に取り組んでいます。</p>
+                <h3>スキルについて</h3>
+                <p>よく使う技術</p>
+                <div class="skills">
+                    <p>Python</p>
+                </div>
+                <p>そのほか触ったことのある技術</p>
+                <div class="skills">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>PHP</p>
+                    <p>Ruby</p>
+                    <p>Java</p>
+                    <p>C</p>
+                    <p>TypeScript</p>
+                    <p>Rails</p>
+                    <p>MySQL</p>
+                    <p>SQLite</p>
+                    <p>Git</p>
+                    <p>Docker</p>
+                    <p>AWS</p>
+                </div>
+                <p>興味のある技術</p>
+                <div class="skills">
+                    <p>Go</p>
+                    <p>Rust</p>
+                    <p>React</p>
+                </div>
+                <h3>IT技術について</h3>
+                <p>普段から使用しているもの(アプリなど)がどういう仕組みでできているのか、どう現実で実装されているかということを知ることにとても面白みを感じます。技術を使うことを仕事をすることでもっと技術を知りたいです。</p>
+            </div>
+        </section>
+
+        <section id="history" class="content">
+            <div class="history-child">
+                <h1>HISTORY</h1>
+                <div class="timeline">
+                    <div class="timeline-link">
+                        <h2><span class="left">生誕</span><span class="right">2003</span></h2>
+                        <a href="#birth"></a>
+                    </div>
+                    <div class="timeline-link">
+                        <h2><span class="left">琉球大学教育学部附属中学校</span><span>2016/4-2019/3</span></h2>
+                        <a href="#jhs"></a>
+                    </div>
+                    <div class="timeline-link">
+                        <h2><span class="left">球陽高等学校 理数科</span><span class="right">2019/4-2022/3</span></h2>
+                        <a href="#hs"></a>
+                    </div>
+                    <div class="timeline-link">
+                        <h2><span class="left">琉球大学 工学部 工学科 知能情報コース</span><span class="right">2022/4-現在</span></h2>
+                        <a href="#univ"></a>
+                    </div>
+                    <div class="timeline-link">
+                        <h2><span class="left">IT企業 エンジニアインターン</span><span class="right">2022/11-2023/3</span></h2>
+                        <a href="#internship1"></a>
+                    </div>
+                    <div class="timeline-link">
+                        <h2><span class="left">JBS株式会社 プロンプトエンジニアインターン</span><span class="right">2023/12-2024/2</span></h2>
+                        <a href="#internship2"></a>
+                    </div>
+                </div>
+                <div class="history-info">
+                    <h3 id="birth">生誕</h3>
+                    <p>沖縄に生まれる</p>
+                </div>
+                <div class="history-info">
+                    <h3 id="jhs">琉球大学教育学部附属中学校</h3>
+                    <p>剣道、サッカーに励む</p>
+                </div>
+                <div class="history-info">
+                    <h3 id="hs">球陽高等学校 理数科</h3>
+                    <p>勉強、ギター、遊びに励む</p>
+                </div>
+                <div class="history-info">
+                    <h3 id="univ">琉球大学 工学部 工学科 知能情報コース</h3>
+                    <p>プログラミング、筋トレ、オタ活に励む</p>
+                </div>
+                <div class="history-info">
+                    <h3 id="internship1">IT企業 エンジニアインターン</h3>
+                    <p>このインターンに参加した理由</p>
+                    <div class="history-description">
+                        <p>プログラミングの勉強を自分なりにしてましたが、成長を実感できずインターンに参加したら何か変わるかもしれないという思いで参加しました。</p>
+                    </div>
+                    <p>インターンの内容</p>
+                    <div class="history-description">
+                        <p>フルリモートでインターンに参加しました。
+                            AI(画像分類、物体認識、自然言語処理)を用いたデータ分析、AtCoder(コーディング基礎力アップ)、webアプリへの機能追加を課題形式で行いました。</p>
+                    </div>
+                    <p>インターンで大変だったこと</p>
+                    <div class="history-description">
+                        <p>アルバイト経験がなかったので、会社で継続的に働くという経験を初めてしました。オンラインでのコミュニケーションや自分より年上の人とのコミュニケーションなど初めての経験に対応するのが大変でした。</p>
+                        <p>プログラミングもはじめたばかりでとても難しくて、課題をこなすのがとても苦労しました。</p>
+                    </div>
+                    <p>インターンで学んだことなど</p>
+                    <div class="history-description">
+                        <p>インターン経験前は、エンジニアとして働くことに対しての解像度がとても低く、何をするのかも良く分かっていない状態でしたがインターンを通してある程度エンジニアがどう仕事をするのかが分かりました。</p>
+                        <p>インターンの内容が、AIを用いたデータ分析とwebアプリの開発だったので、データサイエンティストとwebエンジニアの二つの職種がどういうことをするのかを大まかに理解できました。インターンを通して、データサイエンティストの仕事は、自分に合っていないことに気づけました。逆に、webエンジニアの仕事は、自分にとって楽しかったので向いてると気づけました。</p>
+                        <p>私が行ったデータ分析のフィードバックで「とても良い精度」という言葉の使い方に対して、クライアント側の解釈と自分基準の解釈に差があるから基準の明確でないものに対しての言葉に気をつけてというものがありました。このことから、クライアント視点の考えも持つ必要があると分かり勉強になりました。</p>
+                        <p>プログラミングとの向き合い方が分かった期間でした。インターンを終えてどうやって学習したらいいのかが分かるようになりました。</p>
+                    </div>
+                </div>
+                <div class="history-info">
+                    <h3 id="internship2">JBS株式会社 プロンプトエンジニアインターン</h3>
+                    <p>このインターンに参加した理由</p>
+                    <div class="history-description">
+                        <p>純粋にプロンプトエンジニアは何をするのかへの興味とネットでSIerに対するネガティブな意見をよく目にしたので実際どうなのかを中で体験してみたいという興味でインターンに参加しました。</p>
+                    </div>
+                    <p>インターンの内容</p>
+                    <div class="history-description">
+                        <p>全て出社してインターンに参加しました。
+                            ChatGPT、Copilot for Microsoft 365など生成AIを利用したサービスのプロンプトの作成、チューニングです。生成AIを活用する上でより良い出力を得られるようなプロンプトを目的別に作成しテンプレート化し、利用するような形でした。</p>
+                    </div>
+                    <p>インターンで大変だったこと</p>
+                    <div class="history-description">
+                        <p>最初は、プロンプトエンジニアリングについて新しいことを学べて面白みを感じていました。ですが、慣れてくると徐々に簡単な単純作業になってしまい退屈になってしまいました。</p>
+                        <p>同じプロンプトでも出力が変わるのでその調整をするのが大変でした。</p>
+                    </div>
+                    <p>インターンで学んだことなど</p>
+                    <div class="history-description">
+                        <p>ChatGPTを上手に使うプロンプトの作成方法を学べました。</p>
+                        <p>私の性格が単純作業すぎると面白みを感じられず退屈になるということが分かりました。</p>
+                        <p>ネットのSIerに対するネガティブな意見は、働く人によると分かりました。実際に楽しそうに働いてる人もいればきつそうに働いてる人もいて、合う人には合うと感じました。</p>
+                        <p>私は、プロンプトエンジニアにはならずにプロンプトをうまく使えるソフトウェアエンジニアになりたいと思いました。</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
