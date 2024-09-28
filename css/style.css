@@ -73,7 +73,6 @@ main {
 .top-child .links {
   padding-top: 50px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px; /* ボタン間の間隔を調整 */
 }
